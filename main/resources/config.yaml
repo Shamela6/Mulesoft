@@ -1,0 +1,36 @@
+http:
+  port: "8081"
+  
+american:
+  host: "training4-american-api-shamela.us-e2.cloudhub.io"
+  port: "80"
+  basepath: "/"
+  protocol: "HTTP"
+  client_id: "7346d74e105c4c90adbfb5159f2c4e1a"
+  client_secret: "8b18823e987C4ef6bF06b8956EF687dc"
+  
+training:
+  host: "mu.learn.mulesoft.com"
+  port: "80"
+  basepath: "/"
+  protocol: "HTTP"
+  
+delta:
+  wsdl: "http://mu.learn.mulesoft.com/delta?wsdl"
+  service: "TicketServiceService"
+  port: "TicketServicePort"      
+
+file:
+  accountsDir: "C:/Users/Administrator/Desktop/APDevFundamentals4.4_studentFiles_SP_06may2022/resources"
+
+db:
+  host: "mudb.learn.mulesoft.com"
+  port: "3306"
+  user: "mule"
+  password: "mule"
+  database: "training"
+  
+sfdc:
+  username: "shamela.yousuff@gmail.com"
+  password: "Beautiful46"
+  token: "ufQWxsu50pLIgmplXZKCMl4n"
